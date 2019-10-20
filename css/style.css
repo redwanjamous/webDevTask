@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+body {
+    
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+}
+
+.page-1 header div div, .page-2 header div div, .page-3 header div div, .page-4 header div div {
+    display: flex;
+}
+.page-1 .bdy{
+    z-index: 0;
+
+    
+}
+
+
+.page-1 .bg{
+    position: absolute;
+    z-index: -1 ;
+}
+.page-1 nav, .page-2 nav, .page-3 nav, .page-4 nav {
+    text-align: center;
+
+}
+.page-1 nav ul, .page-2 nav ul, .page-3 nav ul, .page-4 nav ul {
+    z-index: 10;
+    float: right;
+    background-color: rgb(52, 52, 58);
+    position: absolute;
+    left: -2%;
+    top: -130px;
+    text-align: center;
+    width: 112%;
+    padding-top: 30px;
+    height: 1100px;
+
+}
+.page-1 nav ul li a, .page-2 nav ul li a, .page-3 nav ul li a, .page-4 nav ul li a {
+    font-family: 'Oswald';
+    font-size: 3em;
+    color: antiquewhite;
+
+}
+.page-1 nav ul li, .page-2 nav ul li, .page-3 nav ul li, .page-4 nav ul li {
+    margin-top: 40px;
+}
+.page-1 .ext-btn, .page-2 .ext-btn, .page-3 .ext-btn, .page-4 .ext-btn {
+    position: relative;
+    left: 35%;
+}
+
+.menu{
+    z-index:5;
+   float: right;
+   position: relative;
+   bottom: 87px;
+
+}
+.page-1 .logo, .page-2 .logo, .page-3 .logo, .page-4 .logo{
+    height: 100px;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.page-1 .hide-mobile, .page-2 .hide-mobile, .page-3 .hide-mobile, .page-4 .hide-mobile{
+    
+    display: none;
+}
+
+.page-1 .main-div{
+    position: relative;
+    top: 165px;
+    font-family: 'Oswald';
+    text-align: center;
+}
+.page-1 .main-div h2{
+    letter-spacing: -0.5px;
+    padding-bottom: 13px;
+    color: #3d2e2e;
+    -webkit-text-stroke: 1px black;
+    font-size: 2.5em;
+
+
+}
+.page-1 .main-div a{
+    border-radius: 0.5em;
+    font-size: 150%;
+    -webkit-text-stroke: 0.04ex black;
+    background-color: #4A4E4D;
+    text-decoration: none;
+    color: #ffffff;
+
+    
+}
+
+.page-1 .main-div a:hover{
+    border-radius: 1em;
+    font-size: 150%;
+    -webkit-text-stroke: 0.04ex black;
+    background-color: #4A4E4D;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.5s;
+    
+
+    
+}
+
+.page-1 #more {display: none;}
+
+.page-1 .introduction{
+    font-family: 'Oswald';
+    text-align: center;
+    position: relative;
+    top: 210px;
+    font-size: 1.4em;
+}
+.page-1 nav ul li a:hover,.page-1  nav ul li a:active,.page-1  nav ul li a:visited,.page-1  nav ul li a:focus,
+.page-2 nav ul li a:hover,.page-2  nav ul li a:active,.page-2  nav ul li a:visited,.page-2  nav ul li a:focus,
+.page-3 nav ul li a:hover,.page-3  nav ul li a:active,.page-3  nav ul li a:visited,.page-3  nav ul li a:focus,
+.page-4 nav ul li a:hover,.page-4  nav ul li a:active,.page-4  nav ul li a:visited,.page-4  nav ul li a:focus{
+    background: none;
+}
+.page-1 .introduction a,.introduction a:hover,.introduction a:active,.introduction a:visited,.introduction a:focus {
+    text-decoration:none;
+    color: #2e4e57;
+}
+.page-1 footer, .page-2 footer,.page-3 footer, .page-4 footer{
+    padding-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    bottom: -240px;
+    background-color: #4A4E4D;
+    text-align:center;
+    font-size: 110%;
+    color: #ffffff86;
+}
+.page-1 footer div a, .page-2 footer div a, .page-3 footer div a, .page-4 footer div a {
+    position: relative;
+    top: -32px;
+    text-align:center;
+    font-size: 110%;
+    color: #ffffff86;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.page-1 footer div a:hover, .page-2 footer div a:hover, .page-3 footer div a:hover, .page-4 footer div a:hover {
+    text-decoration: none;
+}
+
+.page-1 footer .info, .page-2 footer .info, .page-3 footer .info, .page-4 footer .info {
+    position: relative;
+    top:-17px
+}
+
+.page-1 footer .info p, .page-2 footer .info p, .page-3 footer .info p, .page-4 footer .info p {  
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+/*****************
+
+
+end of page 1
+
+
+
+**********************/
+.page-2 .menu-bg,.page-3 .menu-bg,.page-4 .menu-bg{
+    background: rgb(98, 104, 102);
+    height: 150px;
+}
+ .page-2 .sentence{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page-2 .items{
+    text-align: center;
+}
+.items div div{
+    color: antiquewhite;
+    background: #4A4E4D;
+    border-radius: 35px;
+    margin-bottom: 45px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    width: 420px;
+}
+/**********************************
+
+
+end of page 2
+
+
+
+********************************************************************/
+.wallcon h1{
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+font-size: 2em;
+font-family: "pacifico";
+color: #000000c2;
+font-weight: bolder;
+}
+.wallcon{
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+.wallimg{
+    z-index: -1;
+    filter: grayscale(40%);
+    filter: contrast(20%);
+    filter: opacity(70%);
+    width: 100%;
+}
+.wallcon div{
+    z-index: 0;
+    position: absolute;
+    top: 276px;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    color: #000000c2;
+    text-shadow: #000000 .7px .5px;
+    margin-top: 20px;
+}
+.page-3 footer{
+    z-index: 0;
+    position: relative;
+    bottom: 0px;
+    margin-top: 0px;
+
+}
+/******end of page 3*******************
+******************************************/
+.page-4 form {
+    background-color: rgb(98, 104, 102) ;
+    border-radius: 50px;
+    width: 86%;
+    position: relative;
+    top: 100px;
+    padding: 35px 35px;
+}
+.page-4 form h2{
+    font-weight: bold;
+    margin: 0px 0px;
+}
+.page-4 form p{
+    font-size: 17px;
+    margin-bottom: 17px;
+}
+.page-4 form label:hover{
+    cursor: pointer;
+}
+.page-4 form label input,textarea{
+    border-radius: 5px;
+}
+.page-4 form span{
+    position: relative;
+    bottom: 110px;
+}
+#submit{
+    text-align: center;
+    background: rgb(240, 233, 225);
+    border-radius: 20px;
+    position: relative;
+    left: 70px;
+    height: 36px;
+    width: 65px;
+}
+
+@media screen and (min-width: 585px) {
+    .page-1 .main-div{
+        position: relative;
+        top: 250px;
+    }
+    
+    .page-1 .introduction{
+        position: relative;
+        top: 280px;
+    }
+
+    .page-1 footer, .page-2 footer,  .page-4 footer{
+        position: relative;
+        top: 350px;
+    }
+    .page-1 nav, .page-2 nav, .page-3 nav, .page-4 nav {
+        position: relative;
+        top: -5px;
+    }
+    .wallcon div{
+    position: absolute;
+    top: 315px;
+    
+    }
+    .page-3 footer{
+        position: relative;
+        bottom: 0px;
+    }
+    .page-4 form {
+        text-align: center;
+        font-size: 17px;
+    }
+    .page-4 form h2{
+        font-size: 35px;
+    }
+    .page-4 #namelab, .page-4 #emaillab{
+        position: relative;
+        right: 63px;
+    }
+    .page-4 .sub{
+        position: relative;
+        right: 130px;
+    }
+
+}
+@media screen and (min-width: 700px) {
+    .page-1 .main-div{
+        position: relative;
+        top: 350px;
+    }
+    
+    .page-1 .introduction{
+        position: relative;
+        top: 400px;
+    }
+
+    .page-1 footer, .page-2 footer, .page-4 footer{
+        position: relative;
+        top: 470px;
+    }
+
+    .page-1 .logo, .page-2 .logo, .page-3 .logo, .page-4 .logo{
+        height: 113px;
+    }
+
+    .page-1 .menu, .page-2 .menu, .page-3 .menu, .page-4 .menu {
+        position: relative;
+        top: 2%;
+        right :3%;
+    }
+
+    .page-1 nav ul, .page-2 nav ul, .page-3 nav ul, .page-4 nav ul {
+        height: 1800px;
+    }
+
+    .page-1 nav, .page-2 nav, .page-3 nav, .page-4 nav {
+        position: relative;
+        top: -18px;
+    }
+    .page-1 .menu, .page-2 .menu, .page-3 .menu, .page-4 .menu {
+        position: relative;
+        top: -72px;
+    }
+    .page-3 footer{
+        position: relative;
+        bottom: 0px;
+    }
+
+}
+@media screen and (min-width:768px){
+
+
+    .page-1 footer, .page-2 footer, .page-3 footer, .page-4 footer{
+        width: 100%;
+    }
+
+    .page-1 .hide-desktop, .page-2 .hide-desktop, .page-3 .hide-desktop, .page-4 .hide-desktop{
+        display: none;
+    }
+    .page-1 .hide-mobile, .page-2 .hide-mobile, .page-3 .hide-mobile, .page-4 .hide-mobile,.page-1 .show-desktop, .page-2 .show-desktop, .page-3 .show-desktop, .page-4 .show-desktop{
+        display: inline-block;
+    }
+    .page-1 nav ul, .page-2 nav ul, .page-3 nav ul, .page-4 nav ul {
+        background: none;
+        height: 20px;
+        position: absolute;
+        left:43%;
+        font-size: .65em;
+    }
+    .page-1 nav ul li, .page-2 nav ul li, .page-3 nav ul li, .page-4 nav ul li {
+        position: relative;
+        bottom: 10px;
+        color: #ffffff;
+        text-shadow: 2.5px 2px rgb(36, 33, 33); 
+        
+
+    }
+    .page-1 nav ul li a, .page-2 nav ul li a, .page-3 nav ul li a, .page-4 nav ul li a{
+    
+    border-radius: 5px;
+    }
+
+    .page-1 nav ul li a:hover, .page-2 nav ul li a:hover, .page-3 nav ul li a:hover, .page-4 nav ul li a:hover {
+        background-color: #4A4E4D;
+        border-radius: 15px;
+        transition: all 0.5s;
+    }
+    .page-2 .menu-bg,.page-3 .menu-bg,.page-4 .menu-bg{
+        height: 160px;
+        width: 100%;
+    }
+    .items .col1 div{
+        width: 325px;
+        height: 170px;
+    }
+    .items .col2 div{
+        width: 325px;
+        height: 170px;
+        
+    }
+    .items .col1{
+        width: 400px;
+        position: absolute;
+        left: 0px;
+
+    }
+    .items .col2{
+        width: 400px;
+        position: absolute;
+        right: 0px;
+
+    }
+    .page-2 footer{
+        position: relative;
+        top: 900px;
+    }
+    
+    .wallcon h1{
+        margin-top: 56px;
+        margin-bottom: 56px;
+        font-size: 2.4em;
+    }
+    .wallcon div{
+        top: 350px;
+        font-size: 24px;
+        text-shadow: #000000 1px .7px;
+        margin-top: 20px;
+    }
+    .page-4 form{
+        position: relative;
+        top: 150px;
+    }
+    .page-4 label {
+        margin-bottom: 10px ;
+    }
+
+}
+@media screen and (min-width:992px){
+    .page-1 nav ul li, .page-2 nav ul li, .page-3 nav ul li, .page-4 nav ul li {
+        position: relative;
+        left: 10%;
+    }
+
+    .page-1 .logo, .page-2 .logo, .page-3 .logo, .page-4 .logo{
+        height: 136px;
+    }
+
+    .page-1 .main-div{
+        position: relative;
+        top:425px;
+    }
+    .page-1 .introduction{
+        position: relative;
+        top: 500px;
+    }
+    .page-1 footer, .page-2 footer {
+        position: relative;
+        top: 600px;
+    }
+    .page-2 .menu-bg,.page-3 .menu-bg,.page-4 .menu-bg{
+        height: 200px;
+    }
+    .items .col1{
+        width: 430px;
+        position: absolute;
+        left: 70px;
+    }
+    .items .col2{
+        width: 430px;
+        position: absolute;
+        right: 70px;
+    }
+    .page-2 footer{
+        position: relative;
+        top: 900px;
+    }
+    .page-3 footer{
+        position: relative;
+        bottom: 0px;
+    }
+    .page-4 form{
+        width: 60%;
+    }
+
+}
+@media screen and (min-width:1024px){
+    .page-1 .main-div{
+        position: relative;
+        top:450px;
+    }
+    .page-1 nav ul, .page-2 nav ul, .page-3 nav ul, .page-4 nav ul {
+        font-size: 0.75em;
+    }
+    .wallcon .wallimg{
+        filter: grayscale(40%);
+        filter: contrast(100%);
+        filter: opacity(100%);
+        width: 50%;
+        margin: 0px 0px;
+    }
+    .wallcon div{
+        position: absolute;
+        right: 0px;
+        top: 380px;
+        width: 50%;
+        font-size: 25px;
+        text-shadow: #000000 1px .8px;
+        margin: 0px 0px;
+        padding: 0px 50px;
+    }
+
+
+
+}
+@media screen and (min-width:1200px){
+    .page-1 .logo, .page-2 .logo, .page-3 .logo, .page-4 .logo {
+        height: 160px;
+        margin-top: 18px;
+        margin-left: 4%;
+    }
+    .page-1 ul li, .page-2 ul li, .page-3 ul li, .page-4 ul li{
+        position: absolute;
+        top : -30px;
+        left: 80px;
+    }
+    .page-1 .main-div{
+        position: relative;
+        top: 670px;
+    }
+    .page-1 .introduction{
+        position: relative;
+        top: 760px;
+    }
+    .page-1 footer, .page-2 footer {
+        position: relative;
+        top:850px;
+    }
+    .items .col1{
+        position: absolute;
+        left: 150px;
+    }
+    .items .col2{
+        position: absolute;
+        right: 150px;
+    }
+    .page-2 footer{
+        position: relative;
+        top: 950px;
+    }
+    .page-4 form h2{
+        font-size: 40px;
+    }
+    .page-4 form p{
+        font-size: 21px;
+    }
+    .page-4 form label{
+        font-size: 20px;
+    }
+    .page-4 #namelab,.page-4 #emaillab{
+        position: relative;
+        right: 77px;
+    }
+    .page-4 #submit{
+        width: 100px;
+        height: 43px;
+    }
+    .page-4 form label span{
+        position: relative;
+        bottom: 149px;
+    }
+    .page-4 footer{
+        position: relative;
+        bottom: 0%;
+    }
+}
+@media screen and (min-width:1300px){
+    .page-1 .logo, .page-2 .logo, .page-3 .logo, .page-4 .logo {
+        height: 175px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .page-1 nav ul, .page-2 nav ul, .page-3 nav ul, .page-4 nav ul{
+        font-size: 0.83em;
+    }
+    .page-1 .main-div{
+        position: relative;
+        top: 780px;
+    }
+    .page-1 .introduction{
+        position: relative;
+        top: 810px;
+    }
+    .wallcon div{
+        padding: 0px 105px;
+        font-size: 30px;
+    }
+    .wallcon h1{
+        margin-top: 65px;
+        margin-bottom: 65px;
+        font-size: 2.5em;
+    }
+        
+
+
+}
+
+
+
+
+
+
